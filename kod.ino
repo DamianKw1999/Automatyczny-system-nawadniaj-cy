@@ -56,7 +56,6 @@ START:
   display.print("%");
   display.setCursor(0, 20);
   display.print("Wilg. gleby:");
-  double przeplyw = analogRead(A2);
   int wilgotnosc = analogRead(A0);
   int wil = map(wilgotnosc, 182, 455, 100, 0);
   display.setTextSize(1);
